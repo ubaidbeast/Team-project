@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
         .navbar{
-           box-shadow: 0 4px 3px rgba(0, 0, 0, 0.7);
+           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
            padding: 20px, 40px; 
         }
         .nav-item{
@@ -79,12 +79,12 @@
               <!-- <button class="btn btn-outline-success" type="submit">sign up</button> -->
 
               <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                     Log In
                 </button>
                 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -93,6 +93,16 @@
                         </div>
                         <div class="modal-body">
                             <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">first name</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text"></div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">last name</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text"></div>
+                              </div>
+                            <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
@@ -100,6 +110,10 @@
 
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">confirm password</label>
                             <input type="password" class="form-control" id="exampleInputPassword1">
                         </div>
                         </div>
@@ -110,32 +124,50 @@
                     </div>
                     </div>
                 </div>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">sign In Here</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                              </div>
-
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        </div>
-                        <div class="modal-footer">
-                        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-                        <button type="button" class="btn btn-primary">sign in</button>
-                        </div>
-                    </div>
-                    </div>
-                </div>  
+               <!-- Button trigger modal -->
+         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            sign up
+         </button>
+  
+  <!-- Modal -->
+         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+          <div class="modal-content">
+         <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">sign up here</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">first name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">last name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+             <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">  
+             </div>
+             <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">comfirm password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+        <div class="modal-footer">  
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"></button> -->
+          <button type="button" class="btn btn-secondary">sign up</button>
+        </div>
+        </div>
+        </div>
+     </div>        
             </form>
           </div>
         </div>
