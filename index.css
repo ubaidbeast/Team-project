@@ -4,6 +4,7 @@
  .nav-item:hover {
     background-color: grey;
     color: white!important;
+    transition: 0.2s;
 } 
 
 .default-hover:hover{
@@ -11,5 +12,11 @@
 }
 .main:hover {
     background-color: grey;
-    color: white;
+    transition: 0.2s;
+
 } 
+
+.btn {
+    margin-left: 5px;
+}
+
