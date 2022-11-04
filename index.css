@@ -1,0 +1,22 @@
+.main {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+ .nav-item:hover {
+    background-color: grey;
+    color: white!important;
+    transition: 0.2s;
+} 
+
+.default-hover:hover{
+    color: white!important;
+}
+.main:hover {
+    background-color: grey;
+    transition: 0.2s;
+
+} 
+
+.btn {
+    margin-left: 5px;
+}
+
