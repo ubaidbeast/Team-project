@@ -48,7 +48,7 @@
    <div class="glitch" data-glitch="glitch">glitch</div>
 </div> */
 
-
+/* 
 .glitch-wrapper {
    width: 100%;
    height: 100%;
@@ -265,11 +265,16 @@
    100% {
       clip: rect(67px, 9999px, 122px, 0);
    }
+} */
+*{
+   padding: 0%;
+   margin: 0%;
 }
 
 
  body{
-    background-color: #c5d2d6
+   background-color: #c5d2d6;
+   justify-content: center;
 } 
 
 
@@ -285,4 +290,24 @@
   .login1{
     margin-bottom: 5px;
   }
+}
+.imej{
+   width:100%;
+   /* margin-left: 5%; */
+}
+
+.c-item{
+   height: 480px;
+}
+
+.c-imej{
+   height: 100%;
+   object-fit: cover;
+}
+
+
+footer{
+   text-align: center;
+   display: grid;
+   grid-template-columns: auto auto auto auto auto;
 }
